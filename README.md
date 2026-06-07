@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CLUI
 
-## Getting Started
+**CLUI** stands for **Command Line User Interface**. It is a minimalist terminal application for macOS built for CLI power users who want a cleaner, more organized terminal experience.
 
-First, run the development server:
+CLUI uses the terminal engine behind VS Code, then builds a focused desktop experience around it with a lightweight interface, flexible layout, and practical widgets. The goal is simple: make terminal work feel more ordered, readable, and useful without getting in the way.
+
+## Why CLUI
+
+Traditional terminal workflows are powerful, but they can become visually noisy and fragmented when you are juggling multiple tasks, contexts, and outputs. CLUI is designed to make that experience feel more structured.
+
+It brings together:
+
+- A minimalist terminal-first interface.
+- A layout system based on flexible panels and widgets.
+- A more ordered workspace for command-line work.
+- A lightweight desktop shell built with Tauri.
+
+## What it is
+
+CLUI is a terminal emulator with a UI layer designed around productivity and clarity.
+
+You can think of it as a focused command-line workspace rather than just a plain terminal window. It is meant for developers, terminal-heavy users, and anyone who wants a more intentional way to organize CLI activity.
+
+## Core ideas
+
+- **Terminal-first** — the terminal stays at the center of the experience.
+- **Minimalist** — no unnecessary chrome or heavy abstractions.
+- **Flexible layout** — useful widgets and panel-based organization.
+- **Lightweight** — built with Tauri, with an app size of about 25 MB.
+- **Power-user oriented** — made for people who live in the command line.
+
+## Tech stack
+
+- **Framework:** Tauri
+- **Platform:** macOS desktop app
+- **Terminal engine:** based on the engine used by VS Code
+- **Footprint:** approximately 25 MB
+
+## Status
+
+CLUI is currently in active development. The project is focused on building a practical, elegant terminal experience that feels fast, lightweight, and visually ordered.
+
+## Installation
+
+### Homebrew
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+brew tap angelkaragiozov/clui
+brew install --cask clui
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Direct download
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Download the latest macOS release from the GitHub Releases page.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Who it is for
 
-## Learn More
+CLUI is built for:
 
-To learn more about Next.js, take a look at the following resources:
+- Developers who work in the terminal every day.
+- CLI power users who want a more organized workspace.
+- People who prefer minimal tools with clear visual structure.
+- macOS users looking for a lightweight terminal companion.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Vision
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The long-term vision for CLUI is to turn the terminal into a more composed workspace: still fast, still text-first, but easier to structure, scan, and use for real daily work.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Instead of replacing the command line, CLUI aims to support it with better layout, better focus, and a calmer interface.
