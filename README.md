@@ -42,7 +42,7 @@ CLUI is currently in active development. The project is focused on building a pr
 
 ## Installation
 
-<a href="https://github.com/angelkaragiozov/clui/releases/latest/download/CLUI.dmg"
+<a href="https://github.com/angelkaragiozov/clui/releases"
    target="_blank" rel="noopener noreferrer">
 Download for macOS
 </a>
